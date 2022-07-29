@@ -1,0 +1,31 @@
+{
+    "port": "80",
+    "storage": {
+        "type": "json",
+        "mysql": {
+            "host": "",
+            "user": "",
+            "password": "",
+            "database": ""
+        },
+        "mysql_anti_idle": true
+    },
+    "discord": {
+        "active": true,
+        "token": "",
+        "prefix": "!",
+        "ownerIds": ["OWNERID1", "OWNERID2"]
+    },
+    "server": {
+        "active": true,
+        "port": 25565,
+        "motd": "§9Vops Capes §7» §bLink your Account",
+        "version": "1.8.8"
+    },
+    "panel": {
+        "active": false,
+        "allowedInPanel": ["DISCORD_ID", "PUT_MORE_IDS"],
+        "client_id": "",
+        "client_secret": ""
+    }
+}
